@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: linear-gradient(90deg, rgba(255,217,79,1) 0%, rgba(0,255,143,1) 100%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .todoContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #f0fdff;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    border-radius: 10px;
+    padding: 30px;
+  }
+  
+  .inputContainer {
+    display: flex;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .input {
+    height: 37px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 5px 0 0 5px;
+    border: none;
+  }
+  
+  .addBtn {
+    border: none;
+    width: 40px;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style-type: none;
+  }
+  
+  .listItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .itemTextContainer {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .itemDeleteBtn {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+  }
